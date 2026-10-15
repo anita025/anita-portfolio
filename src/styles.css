@@ -41,3 +41,33 @@
 .dialog-content>.oryenza-screenshot{width:100%;max-width:none}
 @media(max-width:1050px){.hero{grid-template-columns:1fr 1fr}.hero-site-preview{margin:85px 12px 95px}.hero-web{min-height:350px}}
 @media(max-width:760px){.hero{grid-template-columns:1fr}.hero-web{min-height:0;height:auto}.hero-site-preview{margin:60px 14px 85px}.hero-web .hero-site-preview .oryenza-art{max-width:none}.project-oryenza .project-image{height:auto;aspect-ratio:1.45}.project-oryenza .oryenza-screenshot{max-width:none;margin:30px auto 40px}}
+
+/* ── Huisinfo project card ── */
+.project-huisinfo .project-image{background:#e8f0f8}
+.huisinfo-art .huisinfo-preview{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 24px;text-align:center;background:#f0f4f8;min-height:170px;gap:10px}
+.huisinfo-lock-icon{width:30px;height:30px;color:#516580;flex-shrink:0}
+.huisinfo-label{font-family:var(--mono);font-size:9px;letter-spacing:1px;color:#516580;margin:0;text-transform:uppercase;font-weight:500}
+.huisinfo-sub{font-size:10px;color:#7a8a9a;line-height:1.7;margin:0}
+.project-huisinfo .oryenza-screenshot{width:92%;margin:35px auto 0}
+.dialog-content>.huisinfo-art{width:100%;margin:0}
+
+/* ── Login note — project card and dialog ── */
+.project-login-note{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:8px;letter-spacing:.5px;color:var(--muted);margin-top:14px;line-height:1.4}
+.dialog-login-note{display:flex;align-items:center;gap:7px;font-size:12px;color:#59663b;background:#d9f47740;border:1px solid #c3db61;border-radius:5px;padding:10px 12px;margin-top:14px;line-height:1.5}
+
+/* ── Android screenshots — centred and naturally fitted ── */
+.project-networth .project-image>img,
+.project-conctscan .project-image>img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);height:auto;max-height:82%;width:auto;max-width:66%;margin:0;border-radius:8px}
+.project-networth .project-image:hover>img,
+.project-conctscan .project-image:hover>img{transform:translate(-50%,calc(-50% - 6px)) scale(1.025)}
+
+/* ── Skills section ── */
+.skills-section .section-heading{margin-bottom:34px}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skills-group{border:1px solid var(--line);border-radius:7px;padding:22px 24px;transition:background .2s}
+.skills-group:hover{background:#ecefe2}
+.skills-group-title{font-family:var(--mono);font-size:9px;letter-spacing:1px;color:#737967;text-transform:uppercase;margin:0 0 14px;font-weight:500}
+.skills-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+.skills-list li{font-size:11px;font-weight:500;background:#edf0e3;border:1px solid #dce0d2;border-radius:4px;padding:5px 10px;color:#3a4128;line-height:1}
+@media(max-width:1050px){.skills-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.skills-grid{grid-template-columns:1fr;gap:12px}.skills-group{padding:18px 20px}}

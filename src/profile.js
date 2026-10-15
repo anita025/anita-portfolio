@@ -5,7 +5,7 @@ export const profile = {
   email: 'vaghanianita918@gmail.com', // Add your email here — used for the contact mailto link
   github: 'https://github.com/anita025',
   linkedin: 'https://www.linkedin.com/in/anita-vaghani-46b3b9259/',
-  resumeUrl: '/public/Anita Vaghani_Frontend Developer.pdf', // CV file in public/Anita_Vaghani_CV.pdf
+  resumeUrl: '/resume.pdf', // CV in public/resume.pdf
   experience: [], // { role, company, period, description }
   education: [], // { degree, institution, period }
 };
@@ -47,7 +47,7 @@ export const projects = [
     description: 'A recruitment website built with Next.js, styled, and deployed live on Vercel.',
     details: 'I built Oryenza using Next.js and published it on Vercel. This project reflects my focus on web development — from building the interface to bringing it live. Explore the finished experience using the link below.',
     tags: ['Next.js', 'Vercel', 'Web development'],
-    url: 'https://oryenza.vercel.app/',
+    url: 'https://oryenza-updated.vercel.app/',
   },
   {
     id: 'networth',
@@ -65,11 +65,11 @@ export const projects = [
     id: 'conctscan',
     number: '05',
     type: 'android',
-    name: 'ConctScan',
+    name: 'ContactScan',
     category: 'Productivity application',
     headline: 'Small cards. Better connections.',
     description: 'Scan, save, and organize business cards. Keep your next connection just a tap away.',
-    details: 'ConctScan brings scanned business cards into a searchable library with favorites, groups, and sorting. Contact information stays together in an interface designed around quick access.',
+    details: 'ContactScan brings scanned business cards into a searchable library with favorites, groups, and sorting. Contact information stays together in an interface designed around quick access.',
     tags: ['Card scanning', 'Contact organization', 'Mobile app'],
     image: '/images/conctscan.png',
   },

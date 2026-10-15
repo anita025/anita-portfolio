@@ -150,7 +150,7 @@ function App() {
               <a href="#work" className="button dark">View my work <Arrow diagonal /></a>
               {profile.resumeUrl
                 ? <a href={profile.resumeUrl} className="text-link" target="_blank" rel="noreferrer">Download resume <Arrow diagonal /></a>
-                : <a href="https://oryenza.vercel.app/" target="_blank" rel="noreferrer" className="text-link">Visit Oryenza <Arrow diagonal /></a>
+                : <a href="https://oryenza-updated.vercel.app/" target="_blank" rel="noreferrer" className="text-link">Visit Oryenza <Arrow diagonal /></a>
               }
             </div>
             <div className="hero-footnote">
@@ -169,7 +169,7 @@ function App() {
             <Star className="hero-star" />
             <a
               className="hero-site-preview"
-              href="https://oryenza.vercel.app/"
+              href="https://oryenza-updated.vercel.app/"
               target="_blank"
               rel="noreferrer"
               aria-label="Explore the Oryenza website"
@@ -193,7 +193,7 @@ function App() {
                 <span>NEXT.JS WEBSITE</span>
                 <strong>Oryenza</strong>
               </div>
-              <a href="https://oryenza.vercel.app/" target="_blank" rel="noreferrer" aria-label="Visit Oryenza live website">
+              <a href="https://oryenza-updated.vercel.app/" target="_blank" rel="noreferrer" aria-label="Visit Oryenza live website">
                 <Arrow diagonal />
               </a>
             </div>
@@ -312,7 +312,7 @@ function App() {
               </p>
               <p>
                 Web development is my primary focus. Bhajan Sarita, Huisinfo, and Oryenza each reflect a different side of that work — from full stack and SEO to component libraries and REST API integration.
-                I also build React Native apps: NetWorthApp for tracking assets and ConctScan for organising business cards.
+                I also build React Native apps: NetWorthApp for tracking assets and ContactScan for organising business cards.
                 Where a project needs it, I support the backend with Node.js and MongoDB.
               </p>
               <div className="about-principles">

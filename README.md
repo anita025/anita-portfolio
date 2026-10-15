@@ -1,6 +1,6 @@
 # Developer portfolio
 
-A responsive React portfolio featuring NetWorthApp, ConctScan, and Bhajan Sarita. Includes project filtering, accessible project dialogs, mobile navigation, and the supplied app images.
+A responsive React portfolio featuring NetWorthApp, ContactScan, and Bhajan Sarita. Includes project filtering, accessible project dialogs, mobile navigation, and the supplied app images.
 
 ## Run
 
